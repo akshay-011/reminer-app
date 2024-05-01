@@ -12,7 +12,10 @@
       "resizeMode": "contain",
       "backgroundColor": "#35374B"
     },
-    "assetBundlePatterns": ["**/*", "./assets/sounds/msg.wav"],
+    "assetBundlePatterns": [
+      "**/*",
+      "./assets/sounds/msg.wav"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -34,7 +37,9 @@
       [
         "expo-notifications",
         {
-          "sounds": ["./assets/audios/msg.wav"]
+          "sounds": [
+            "./assets/audios/msg.wav"
+          ]
         }
       ]
     ],
@@ -46,9 +51,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "a08d6c9c-76ea-4d8b-a5c9-a10dbacfe7c3"
+        "projectId": "2912b56d-03f4-44a5-9825-12bcee27e7df"
       }
     },
-    "owner": "akshay-011"
+    "owner": "akshjay-ammu"
   }
 }
